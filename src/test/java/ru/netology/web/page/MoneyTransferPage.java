@@ -25,9 +25,14 @@ public class MoneyTransferPage {
     }
 
     public void errorMassage() {
-        $(withText("Недостаточно средств для перевода!")).shouldBe(Condition.visible);
-    }
+        $(withText("Недостаточно средств для перевода!")).shouldBe(Condition.visible);}
 
-    }
+        public void errorMessage1() {
+            $(withText("Минимальный перевод 1 рубль")).shouldBe(Condition.visible);
+        }
+}
+
+
+
 
 

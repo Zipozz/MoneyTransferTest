@@ -147,7 +147,7 @@ public class MoneyTransferTest {
         val moneyTransferPage = dashboardPage.firstBill();
         int amount = 0;
         moneyTransferPage.transferMoney(amount, DataHelper.getCardSecond());
-        moneyTransferPage.errorMassage();
+        moneyTransferPage.errorMessage1();
 
 
     }
